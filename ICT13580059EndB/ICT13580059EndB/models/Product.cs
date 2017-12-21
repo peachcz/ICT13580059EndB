@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ICT13580059EndB.models
 {
-    class Product
+   public class Product
     {
 
         [PrimaryKey, AutoIncrement]
