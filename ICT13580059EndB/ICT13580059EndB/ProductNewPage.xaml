@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ICT13580059EndB.ProductNewPage">
+
+
+    <ScrollView>
+
+        <StackLayout
+            Orientation="Vertical"
+            Padding="20">
+            <Label
+                x:Name="titleLabel"
+                Text="เพิ่มรายการ"
+                HorizontalTextAlignment="Center"/>
+
+
+            <Label
+                Text="ประเภทรถ" />
+            <Picker
+                x:Name="categoryCarPicker"
+                Title="เลือกประเภทรถ"/>
+            <Label
+                Text="ยี่ห้อ" />
+            <Picker
+                x:Name="carNamePicker"
+                Title="เลือกยี่ห้อ"/>
+
+            <Label
+                Text="รุ่น" />
+            <Entry
+                x:Name="productGenEntry" />
+
+
+            <Label
+                Text="ปี" />
+            <Entry
+                x:Name="yearCarEntry" 
+                Keyboard="Numeric"
+                />
+
+            <Label
+                Text="เลขไมล์(กม.)" />
+            <Entry
+                x:Name="mileCarEntry"
+                Keyboard="Numeric"/>
+
+          
+
+            <Label
+                Text="สี" />
+            <Picker
+                x:Name="carColorPicker"
+                Title="เลือกสี"/>
+
+            <Label
+                Text="รถดีเลอร์" />
+            <Entry
+                x:Name="productCardelerEntry" />
+            <Label
+                Text="รายละเอียด" />
+            <Entry
+                x:Name="productDetailEntry" />
+
+            <Label
+                Text="ราคา" 
+                />
+            <Entry
+                x:Name="productPriceEntry"
+                Keyboard="Numeric"/>
+
+            <Label
+                Text="จังหวัด" />
+            <Picker
+                x:Name="provincePicker"
+                Title="เลือกจังหวัด"/>
+
+            <Label
+                Text="เบอร์โทร" />
+            <Entry
+                x:Name="phoneEntry"
+                Keyboard="Telephone"/>
+
+            
+            <Button
+                x:Name="submitButton"
+                Text="ตกลง"
+                BackgroundColor="Silver"/>
+
+            <Button
+                x:Name="cancelButton"
+                Text="ยกเลิก"
+                BackgroundColor="Red"/>
+
+
+        </StackLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+
+</ContentPage>
